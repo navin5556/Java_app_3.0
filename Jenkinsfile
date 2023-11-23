@@ -1,9 +1,9 @@
-@Library('my-shared-library') _
+//@Library('my-shared-library') _
 
 pipeline{
 
-    //agent any
-    agent { label 'Demo' }
+    agent any
+   //agent { label 'Demo' }
 
     parameters{
 
